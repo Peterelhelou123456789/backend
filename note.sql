@@ -36,16 +36,16 @@ CREATE TABLE IF NOT EXISTS `notes` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `notes`
 --
 
 INSERT INTO `notes` (`id`, `user_id`, `title`, `content`, `created_at`) VALUES
-(2, 1, 'aaa', 'aaaa', '2024-12-29 20:43:20'),
-(4, 1, 'hhh', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaa', '2024-12-29 20:58:38'),
-(5, 1, 'peter', 'aa', '2024-12-29 21:05:28');
+(1, 1, '62210009', 'Peter_23', '2024-12-29 20:43:20'),
+(2, 1, '123456', 'Mhammad', '2024-12-29 20:58:38'),
+(3, 1, 'peter', '62210009', '2024-12-29 21:05:28');
 
 -- --------------------------------------------------------
 
